@@ -29,9 +29,11 @@ ng generate --help
 ## Building
 
 To build the project run:
+node >= 18.19.1
 
 ```bash
-ng build
+  npm install
+  npm run build
 ```
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
